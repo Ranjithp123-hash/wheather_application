@@ -101,7 +101,7 @@ const CityTable = () => {
                 <td>
                   <Link
                     to={`/weather/${city.name}/${city.country}`}
-                    target="_blank" // Opens in a new tab
+                    target="_self"
                     className="text-decoration-none"
                   >
                     {city.name}
